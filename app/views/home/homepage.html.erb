@@ -2,4 +2,5 @@
   <h1>Welcome to the Finance Tracker</h1>
   <p>Welcome <%= @user.email %></p>
   <%= link_to "Log out", destroy_user_session_path %>
+  <%= link_to "New expense", expense_new_path %>
 </div>
